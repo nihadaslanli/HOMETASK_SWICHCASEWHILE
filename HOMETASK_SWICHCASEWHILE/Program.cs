@@ -28,7 +28,7 @@
 //      if (a > c && b > e)
 //        {
 //Console.WriteLine("skaf qapidan kecir");
-      
+
 //else
 //    Console.WriteLine("skaf qapidan kecmir");
 
@@ -45,37 +45,25 @@
 
 
 #region task4
-//CorrectFormat:
-//Console.Write("istenilen musbet ededi daxil edin:");
-
-//int n = Convert.ToInt32(Console.ReadLine());
-//bool isLoop = true;
-//while (isLoop)
-
+//int n = 34;
+//if (n <= 0)
 
 //{
-//    if (n <= 0)
-//    {
-//        Console.WriteLine("duzgun ededi daxil et");
-//        goto CorrectFormat;
-
-//    }
-
-//    else
-//    {
-
-
-
-
-//        Console.WriteLine(n);
-//        isLoop = false;
-//    }
-
+//    Console.WriteLine("musbet eded qeyd edin");
+//    return;
 //}
 
+//while (n % 2 == 0)
+//      n /= 2;
+//if (n == 1)
+//{
+//    Console.WriteLine("bu eded 2nin quvvetidir");
+//}
 
-
-
+//else
+//{
+//    Console.WriteLine("bu eded ikinin quvveti deyil");
+//}
 #endregion
 
 
@@ -95,3 +83,5 @@
 
 //Console.WriteLine(count);
 #endregion
+
+
